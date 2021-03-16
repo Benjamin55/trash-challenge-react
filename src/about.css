@@ -1,0 +1,53 @@
+.about {
+  /* background-color: #28a745; */
+  text-align: center;
+
+  /* color: white; */
+  /* background-image: linear-gradient(#28a745, white); */
+  /* background: lightblue url("../public/images/img-2.jpg") no-repeat fixed center; */
+  background-image: url("https://images.pexels.com/photos/207247/pexels-photo-207247.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+  background-size: cover;
+  min-height: 100%;
+}
+
+.container > h4 {
+  padding: 50px 0;
+  font-size: 50px;
+  font-weight: 300;
+}
+
+.card {
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-body {
+  background-color: #343a40;
+  height: 200px;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  border-radius: 20px;
+}
+
+.card-body > i {
+  color: lime;
+}
+
+.main-text {
+  margin-top: 100px;
+  /* background-image: linear-gradient(white, #28a745); */
+  padding: 0 200px;
+  height: 350px;
+}
+
+.main-text > h1 {
+  font-size: 50px;
+  font-weight: 300;
+}
+
+.main-text > p {
+  padding: 0 50px;
+  font-size: 25px;
+}
